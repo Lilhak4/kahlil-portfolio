@@ -14,12 +14,16 @@ header {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
-  padding: 5vh;
+  background: rgba(36, 228, 100, 0.25);
 }
 
 .menu-items {
   font-size: 2em;
-  border-bottom: 2px solid black;
+  padding: 5vh;
+}
+
+.menu-items a {
+  text-decoration: none;
 }
 
 .container {
@@ -31,7 +35,8 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 25vh;
-  margin-bottom: 15vh;
+  padding-bottom: 38vh;
+  background: rgba(0,0,0,0.1);
 }
 
 #first-title {
@@ -42,14 +47,14 @@ header {
   font-size: 1.75em;
 }
 
-.about-wrapper h3 {
+#about-wrapper h3 {
   font-size: 2.5em;
 }
 
-.project-wrapper h3 {
+#project-wrapper h3 {
   font-size: 2.5em;
 }
 
-.contact-wrapper h3 {
+#contact-wrapper h3 {
   font-size: 2.5em;
 }
