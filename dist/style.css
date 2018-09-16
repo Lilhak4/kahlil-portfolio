@@ -33,10 +33,6 @@ header {
   color: white;
 }
 
-.container {
-
-}
-
 .video-container {
   position: absolute;
   top: 8.4vh;
@@ -44,8 +40,8 @@ header {
   width: 100%;
   height: 100%; 
   overflow: hidden;
+  display: block;
 }
-
 
 #introduction {
   display: flex;
@@ -53,11 +49,44 @@ header {
   align-items: center;
   position: relative;
   z-index: 1;
-  padding: 25vh;
-  padding-bottom: 38vh;
-  color: whitesmoke;
+  padding: 15vh;
+  padding-bottom: 55vh;
+  color: white;
 }
 
+
+#about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20vh;
+  padding-bottom: 31vh;
+}
+
+#about-wrapper h3 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#project-wrapper {
+  display: flex;
+  flex-flow: column;
+  background: white;
+  color: rgba(69, 131, 237, 0.65);
+}
+
+#project-wrapper h3 {
+  font-size: 3.5em;
+}
+
+#project-wrapper h4 {
+  font-size: 2em;
+}
+
+#contact-wrapper h3 {
+  font-size: 3.5em;
+}
+/* ----------TYPOGRAPHY---------- */
 #first-title {
   font-size: 9em;
 }
@@ -66,22 +95,11 @@ header {
   font-size: 1.75em;
 }
 
-#about-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20vh;
+p {
+  font-size: 1.5em;
 }
 
-#about-wrapper h3 {
-  font-size: 2.5em;
-  text-align: center;
+li {
+  font-size: 1.5em;
 }
 
-#project-wrapper h3 {
-  font-size: 2.5em;
-}
-
-#contact-wrapper h3 {
-  font-size: 2.5em;
-}
