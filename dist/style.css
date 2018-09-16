@@ -51,7 +51,7 @@ header {
   position: relative;
   z-index: 1;
   padding: 15vh;
-  padding-bottom: 40vh;
+  padding-bottom: 15vh;
   color: white;
 }
 
@@ -60,7 +60,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 20vh;
-  padding-bottom: 32vh;
+  padding-bottom: 35vh;
 }
 
 #about-wrapper h3 {
@@ -89,28 +89,28 @@ header {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0% 10% 9% 10%;
+  padding: 0% 10% 6% 10%;
 }
 
 #contact-wrapper h3 {
   font-size: 3.5em;
 }
 
-#contact-wrapper img {
-  max-width: 15%;
-}
-
-#contact-links img:nth-child(2) {
+#contact-wrapper a {
   max-width: 10%;
 }
 
 /* ----------TYPOGRAPHY---------- */
 #first-title {
   font-size: 3em;
+  margin-bottom: -2vh;
+  text-shadow: -5px -5px black;
 }
 
 #second-title {
   font-size: 1.75em;
+  margin-bottom: 20vh;
+  text-shadow: -5px -5px black;
 }
 
 p {
@@ -125,7 +125,7 @@ h3 {
   font-size: 3.5em;
 }
 
-
+/* ----------ANIMATION---------- */
 .downArrow{
 	bottom: 45%;
   left: 50%;
