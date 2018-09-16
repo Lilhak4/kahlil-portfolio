@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background: rgba(69, 131, 237, 0.5);
@@ -51,10 +51,9 @@ header {
   position: relative;
   z-index: 1;
   padding: 15vh;
-  padding-bottom: 55vh;
+  padding-bottom: 40vh;
   color: white;
 }
-
 
 #about-wrapper {
   display: flex;
@@ -65,7 +64,6 @@ header {
 }
 
 #about-wrapper h3 {
-  font-size: 3.5em;
   text-align: center;
 }
 
@@ -75,10 +73,6 @@ header {
   background: white;
   color: rgba(69, 131, 237, 0.65);
   text-align: center;
-}
-
-#project-wrapper h3 {
-  font-size: 3.5em;
 }
 
 #project-wrapper h4 {
@@ -112,7 +106,7 @@ header {
 
 /* ----------TYPOGRAPHY---------- */
 #first-title {
-  font-size: 9em;
+  font-size: 3em;
 }
 
 #second-title {
@@ -127,3 +121,65 @@ li {
   font-size: 1.5em;
 }
 
+h3 {
+  font-size: 3.5em;
+}
+
+
+.downArrow{
+	bottom: 45%;
+  left: 50%;
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
