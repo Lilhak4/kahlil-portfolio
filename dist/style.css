@@ -80,7 +80,7 @@ header {
   color: rgba(69, 131, 237, 0.65);
   text-align: center;
   border-bottom: 2px solid blue;
-  transition: transform 0.2s;
+  transition: transform 0.5s;
 }
 
 #project-wrapper h4 {
@@ -94,29 +94,35 @@ header {
 
 #project-3 {
   text-align: left;
-  box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
+  margin-left: 5vw;
+  margin-right: 50%
 }
 
 #project-2 {
   text-align: right;
-  box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
+  margin-left: 50%;
+    margin-right: 5vw;
 }
 
 #project-1 {
   text-align: left;
-  box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
+  margin-left: 5vw;
+  margin-right: 50%;
 }
 
 #project-3:hover {
-  transform: scale(1.01);
+  transform: scale(1.1);
+  box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
 }
   
   #project-2:hover {
-    transform: scale(1.01);
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
 }
   
   #project-1:hover {
-    transform: scale(1.01);
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
 }
   
 
@@ -170,6 +176,7 @@ header {
   padding-top: 40%;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
+  border-radius: 30px;
 }
 
 .gmail div:hover {
