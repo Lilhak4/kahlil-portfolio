@@ -51,7 +51,7 @@ header {
   position: relative;
   z-index: 1;
   padding: 15vh;
-  padding-bottom: 15vh;
+  padding-bottom: 10.4vh;
   color: white;
 }
 
@@ -61,10 +61,16 @@ header {
   align-items: center;
   padding: 20vh;
   padding-bottom: 35vh;
+  border: 2px solid black;
 }
 
 #about-wrapper h3 {
   text-align: center;
+}
+
+#about-wrapper img {
+  width: 60%;
+  margin-left: 15vw;
 }
 
 #project-wrapper {
@@ -98,6 +104,11 @@ header {
 
 #contact-wrapper a {
   max-width: 10%;
+}
+
+.gmail {
+  width: 10vw;
+  height: 10vh;
 }
 
 /* ----------TYPOGRAPHY---------- */
