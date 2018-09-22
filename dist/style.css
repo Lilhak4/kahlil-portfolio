@@ -80,6 +80,7 @@ header {
   color: rgba(69, 131, 237, 0.65);
   text-align: center;
   border-bottom: 2px solid blue;
+  transition: transform 0.2s;
 }
 
 #project-wrapper h4 {
@@ -90,6 +91,34 @@ header {
   list-style: none;
   text-decoration: none;
 }
+
+#project-3 {
+  text-align: left;
+  box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+#project-2 {
+  text-align: right;
+  box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+#project-1 {
+  text-align: left;
+  box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+#project-3:hover {
+  transform: scale(1.01);
+}
+  
+  #project-2:hover {
+    transform: scale(1.01);
+}
+  
+  #project-1:hover {
+    transform: scale(1.01);
+}
+  
 
 #contact-wrapper {
   display: flex;
