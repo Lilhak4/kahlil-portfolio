@@ -61,7 +61,7 @@ header {
   align-items: center;
   padding: 20vh;
   padding-bottom: 35vh;
-  border: 2px solid black;
+  border-bottom: 2px solid blue;
 }
 
 #about-wrapper h3 {
@@ -79,6 +79,7 @@ header {
   background: white;
   color: rgba(69, 131, 237, 0.65);
   text-align: center;
+  border-bottom: 2px solid blue;
 }
 
 #project-wrapper h4 {
@@ -109,6 +110,7 @@ header {
 .contact-links {
   margin: 2vh;
   transition: transform .2s;
+  border-radius: 30px;
 }
 
 .contact-links:hover {
@@ -117,8 +119,8 @@ header {
 }
 
 .gmail {
-  height: 25vh;
-  width: 20vw;
+  height: 26vh;
+  width: 15vw;
   background-size: cover;
   position: relative;
 }
