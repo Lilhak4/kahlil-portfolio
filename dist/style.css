@@ -106,9 +106,43 @@ header {
   max-width: 10%;
 }
 
+.contact-links {
+  margin: 2vh;
+  transition: transform .2s;
+}
+
+.contact-links:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 80px 6px rgba(0, 0, 0, 0.4);
+}
+
 .gmail {
-  width: 10vw;
-  height: 10vh;
+  height: 25vh;
+  width: 20vw;
+  background-size: cover;
+  position: relative;
+}
+
+.gmail *{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.gmail div {
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding-top: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.gmail div:hover {
+  opacity: 1;
 }
 
 /* ----------TYPOGRAPHY---------- */
@@ -134,6 +168,10 @@ li {
 
 h3 {
   font-size: 3.5em;
+}
+
+#email {
+  font-size: 0.95em;
 }
 
 /* ----------ANIMATION---------- */
