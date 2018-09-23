@@ -61,7 +61,7 @@ header {
   align-items: center;
   padding: 20vh;
   padding-bottom: 35vh;
-  border-bottom: 2px solid blue;
+  border-bottom: 1px solid blue;
 }
 
 #about-wrapper h3 {
@@ -79,7 +79,7 @@ header {
   background: white;
   color: rgba(69, 131, 237, 0.65);
   text-align: center;
-  border-bottom: 2px solid blue;
+  border-bottom: 1px solid blue;
   transition: transform 0.5s;
 }
 
