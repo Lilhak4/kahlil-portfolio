@@ -53,6 +53,7 @@ header {
   padding: 15vh;
   padding-bottom: 10.4vh;
   color: white;
+  text-align: center;
 }
 
 #about-wrapper {
@@ -70,7 +71,6 @@ header {
 
 #about-wrapper img {
   width: 60%;
-  margin-left: 15vw;
 }
 
 #project-wrapper {
