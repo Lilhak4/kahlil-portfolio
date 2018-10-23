@@ -63,6 +63,7 @@ header {
   padding: 20vh;
   padding-bottom: 35vh;
   border-bottom: 1px solid blue;
+  text-align: center;
 }
 
 #about-wrapper h3 {
@@ -95,19 +96,22 @@ header {
 #project-3 {
   text-align: left;
   margin-left: 5vw;
-  margin-right: 50%
+  margin-right: 50%;
+  padding-left: 2vw;
 }
 
 #project-2 {
   text-align: right;
   margin-left: 50%;
-    margin-right: 5vw;
+  margin-right: 5vw;
+  padding-right: 2vw
 }
 
 #project-1 {
   text-align: left;
   margin-left: 5vw;
   margin-right: 50%;
+  padding-left: 2vw;
 }
 
 #project-3:hover {
