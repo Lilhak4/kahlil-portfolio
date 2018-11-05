@@ -96,7 +96,7 @@ header {
 #project-3 {
   text-align: left;
   margin-left: 5vw;
-  margin-right: 50%;
+  margin-right: 54%;
   padding-left: 2vw;
 }
 
@@ -110,8 +110,9 @@ header {
 #project-1 {
   text-align: left;
   margin-left: 5vw;
-  margin-right: 50%;
+  margin-right: 54%;
   padding-left: 2vw;
+  margin-bottom: 7vh;
 }
 
 #project-3:hover {
