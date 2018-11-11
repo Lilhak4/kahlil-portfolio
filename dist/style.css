@@ -88,45 +88,41 @@ header {
   font-size: 2em;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
 .project-card li {
   list-style: none;
   text-decoration: none;
 }
 
 #project-3 {
-  text-align: left;
-  margin-left: 5vw;
-  margin-right: 54%;
-  padding-left: 2vw;
+  padding: 0 2vw 0 2vw;
 }
 
 #project-2 {
-  text-align: right;
-  margin-left: 50%;
-  margin-right: 5vw;
-  padding-right: 2vw
+  padding: 0 2vw 0 2vw;
 }
 
 #project-1 {
-  text-align: left;
-  margin-left: 5vw;
-  margin-right: 54%;
-  padding-left: 2vw;
+  padding: 0 2vw 0 2vw; 
   margin-bottom: 7vh;
 }
 
 #project-3:hover {
-  transform: scale(1.1);
+  transform: scale(1.0);
   box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
 }
   
   #project-2:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
     box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
 }
   
   #project-1:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
     box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.4);
 }
   
