@@ -110,8 +110,15 @@ header {
 }
 
 #project-2 {
+<<<<<<< HEAD
   padding: 0 2vw 0 2vw;
   flex-direction: row;
+=======
+  text-align: right;
+  margin-left: 54%;
+  margin-right: 5vw;
+  padding-right: 2vw
+>>>>>>> 1a0f8c6e246fee5d790d79035021d67cd20d39c9
 }
 
 #project-1 {
