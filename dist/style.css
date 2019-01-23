@@ -44,6 +44,10 @@ header {
   display: block;
 }
 
+video {
+width: 100%
+}
+
 #introduction {
   display: flex;
   flex-direction: column;
