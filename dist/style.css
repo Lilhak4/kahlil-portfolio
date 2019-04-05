@@ -48,7 +48,7 @@ video {
 width: 100%
 }
 
-@media screen and (min-width: 336px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   video {
     width: 260%; 
   }
@@ -57,7 +57,7 @@ width: 100%
 	}
 }
 
-@media screen and (min-width: 426px) and (max-width: 630px) {
+@media screen and (max-width: 630px) {
 	.video-container {
 		top: 6.4vh;
 	}
@@ -72,7 +72,7 @@ width: 100%
 	}
 }
 
-@media screen and (min-width: 900px) and (max-width: 3000px) {
+@media screen and (min-width: 900px) {
 	.video-container {
 		top: 10.4vh;
 	}
