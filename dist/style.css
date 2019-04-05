@@ -48,6 +48,18 @@ video {
 width: 100%
 }
 
+@media screen and (max-width: 425px) {
+  video {
+    width: 260%;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+	video {
+		width: 179%;
+	}
+}
+
 #introduction {
   display: flex;
   flex-direction: column;
@@ -55,7 +67,7 @@ width: 100%
   position: relative;
   z-index: 1;
   padding: 15vh;
-  padding-bottom: 10.4vh;
+  padding-bottom: 14.1vh;
   color: white;
   text-align: center;
 }
