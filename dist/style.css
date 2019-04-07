@@ -45,37 +45,62 @@ header {
 }
 
 video {
-width: 100%
+  width: 100%
 }
 
-@media (max-width: 425px) {
-  video {
-    width: 260%; 
-  }
-	.video-container {
-		top: 5.4vh;
-	}
+/* ---------- Media Queries ---------- */
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    video {
+      width: 260%; 
+    }
+    .video-container {
+      top: 5.4vh;
+    }
+    #introduction {
+      padding-bottom: 27.1;
+    }
+    #about-wrapper {
+      padding: 2vh;
+    }
 }
 
-@media (max-width: 630px) {
-	.video-container {
-		top: 6.4vh;
-	}
+@media only screen 
+  and (min-device-width: 481px) 
+  and (max-device-width: 630px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .video-container {
+      top: 6.4vh;
+    }
+    video {
+      width: 260%; 
+    }
 }
 
-@media (max-width: 768px) {
-	video {
-		width: 179%;
-	}
-	.video-container {
-		top: 8.4vh;
-	}
+@media only screen 
+  and (min-device-width: 631px) 
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    video {
+      width: 179%;
+    }
+    .video-container {
+      top: 8.4vh;
+    }
 }
 
-@media (min-width: 900px) {
-	.video-container {
-		top: 10.4vh;
-	}
+@media only screen 
+  and (min-device-width: 769px) 
+  and (max-device-width: 2056px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .video-container {
+      top: 10.4vh;
+    }
+    video {
+      width: 179%;
+    }
 }
 
 #introduction {
