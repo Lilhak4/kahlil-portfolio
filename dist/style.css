@@ -112,7 +112,7 @@ video {
   position: relative;
   z-index: 1;
   padding: 15vh;
-  padding-bottom: 14.1vh;
+  padding-bottom: 20.1vh;
   color: white;
   text-align: center;
 }
@@ -132,7 +132,7 @@ and (max-device-width: 2056px)
 and (-webkit-min-device-pixel-ratio: 1) {
   #about-wrapper {
     padding: 2vh;
-    padding-bottom: 35vh;
+    padding-bottom: 31vh;
   }
 }
 
@@ -218,8 +218,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
   position: relative;
 }
 
-@media 
-
 .gmail *{
   position: absolute;
   top: 0;
@@ -242,6 +240,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
 .gmail div:hover {
   opacity: 1;
 }
+
+/* @media only screen 
+  and (min-width: 320px)
+  and (max-width: 425px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #email {
+      height: 11vh;
+      width: 29vw;
+    }
+  } */
 
 /* ----------TYPOGRAPHY---------- */
 #first-title {
