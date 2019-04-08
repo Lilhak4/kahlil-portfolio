@@ -48,7 +48,6 @@ video {
   width: 100%
 }
 
-/* ---------- Media Queries ---------- */
 @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 480px)
@@ -103,8 +102,6 @@ video {
     }
   }
 
-
-
 #introduction {
   display: flex;
   flex-direction: column;
@@ -117,8 +114,9 @@ video {
   text-align: center;
 }
 
-@media screen and (min-width: 769px)
-  and (max-width: 2056px) {
+@media screen 
+  and (min-width: 769px)
+  and (max-width: 1440px) {
     #introduction {
       padding-bottom: 11vh;
     }
@@ -226,16 +224,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
   position: relative;
 }
 
- @media screen 
-  and (min-width: 300px)
-  and (max-width: 425px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .gmail div {
-      height: 11vh;
-      width: 26vw;
-    }
-   }
-
 .gmail *{
   position: absolute;
   top: 0;
@@ -259,6 +247,25 @@ and (-webkit-min-device-pixel-ratio: 1) {
   opacity: 1;
 }
 
+@media screen 
+  and (min-device-width: 300px)
+  and (max-device-width: 425px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .gmail {
+      height: 15vh;
+      width: 26vw;
+    }
+  }
+
+@media screen 
+  and (min-device-width: 426px)
+  and (max-device-width: 726px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .gmail {
+      height: 16vh;
+      width: 28vw;
+    }
+  }
 
 
 /* ----------TYPOGRAPHY---------- */
