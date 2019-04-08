@@ -218,8 +218,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 .gmail {
-  height: 26vh;
-  width: 15vw;
+  height: 21ch;
+  width: 21ch;
   background-size: cover;
   position: relative;
 }
@@ -247,7 +247,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   opacity: 1;
 }
 
-@media screen 
+/* @media screen 
   and (min-device-width: 300px)
   and (max-device-width: 425px)
   and (-webkit-min-device-pixel-ratio: 1) {
@@ -265,7 +265,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
       height: 16vh;
       width: 28vw;
     }
-  }
+  } */
 
 
 /* ----------TYPOGRAPHY---------- */
