@@ -98,7 +98,7 @@ video {
   and (max-device-width: 2056px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     video {
-      width: 179%;
+      width: 180%;
     }
   }
 
