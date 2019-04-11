@@ -56,7 +56,7 @@ video {
       width: 260%; 
     }
     .video-container {
-      top: 5.4vh;
+      top: 7vh;
     }
     #introduction {
       padding-bottom: 27.1;
@@ -68,7 +68,7 @@ video {
   and (max-device-width: 630px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .video-container {
-      top: 6.4vh;
+      top: 9vh;
     }
     video {
       width: 260%; 
@@ -80,7 +80,7 @@ video {
   and (max-device-width: 768px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .video-container {
-      top: 8.4vh;
+      top: 10vh;
     }
 }
 
@@ -89,7 +89,7 @@ video {
   and (max-device-width: 2056px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .video-container {
-      top: 10.4vh;
+      top: 11vh;
     }
 }
 
@@ -101,6 +101,15 @@ video {
       width: 180%;
     }
   }
+
+@media only screen
+	and (min-device-width: 1600px)
+	and (max-device-width: 2056px)
+	and (-webkit-min-device-pixel-ratio: 1) {
+		header {
+			font-size: 1.5em;
+		}
+}
 
 #introduction {
   display: flex;
