@@ -21,6 +21,15 @@ header {
   justify-content: space-around;
 }
 
+@media only screen
+	and (min-device-width: 1600px)
+	and (max-device-width: 2056px)
+	and (-webkit-min-device-pixel-ratio: 1) {
+		header {
+			font-size: 1.5em;
+		}
+}
+
 .menu-items {
   font-size: 2em;
   padding: 2vh;
@@ -102,15 +111,6 @@ video {
     }
   }
 
-@media only screen
-	and (min-device-width: 1600px)
-	and (max-device-width: 2056px)
-	and (-webkit-min-device-pixel-ratio: 1) {
-		header {
-			font-size: 1.5em;
-		}
-}
-
 #introduction {
   display: flex;
   flex-direction: column;
@@ -140,6 +140,7 @@ video {
   border-bottom: 1px solid blue;
   text-align: center;
 }
+
 @media only screen 
 and (min-width: 300px) 
 and (max-width: 2056px) 
